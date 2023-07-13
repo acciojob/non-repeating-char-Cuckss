@@ -23,10 +23,10 @@ function firstNonRepeatingCharacter(string) {
 }
 
 // Prompt the user to enter a string
-const input = prompt("Enter a string:");
+const input = prompt("Enter a string");
 
-// Call the function with the user's input
+// Call the function with theuser's input
 const result = firstNonRepeatingCharacter(input);
 
 // Display the result using an alert
-alert(`The first non-repeating character is: ${result}`);
+alert(` ${result}`);
